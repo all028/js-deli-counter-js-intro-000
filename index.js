@@ -27,11 +27,12 @@ function currentLine(line){
     }
 
     var addStr = ""
+    var j = 1
     for (let i = 0; i < line.length-1; i++){
-      var j = line[i+1];
-      addStr += " " + j.toString() + ". " + line + ", ";
+      var k = j.toString();
+      addStr += " " + k + ". " + line + ", ";
     }
 
-    var result = "The line is currently:" + addStr;
-    return addStr;
+    var result = "The line is currently: " + addStr;
+    return result;
 }//end currentLine
