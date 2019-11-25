@@ -26,7 +26,14 @@ function currentLine(line){
       return "There is nobody waiting to be served!";
     }
 
-    for
-    var idx = line.indexOf
+    var tempStr = "The line is currently:"
+    var addStr = ""
+    for (let i = 0; i < line.length-1; i++){
+      var j = line[i+1];
+      addStr += " " + j + ". " + line + ",";      
+    }
+
+    return tempStr + addStr;
+    
 
 }//end currentLine
