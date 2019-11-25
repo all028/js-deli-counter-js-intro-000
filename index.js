@@ -11,8 +11,9 @@ function takeANumber(line, name){
 
 function nowServing(line){
   if (line.length > 0) {
-    var rslt =  line[0];
+    var temp =  line[0];
     line.unshift();
+    var rslt = "Currently serving " + temp;
     return rslt;
   }
 
