@@ -5,7 +5,7 @@ function takeANumber(line, name){
     line++;
   }
 
-//  return rsltStr;
+  return rsltStr;
 }//end takeANumber
 
 
