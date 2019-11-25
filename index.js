@@ -23,7 +23,7 @@ function nowServing(line){
 
 function currentLine(line){
     if (line.length ==0){
-      return "There line is currently empty.";
+      return "The line is currently empty.";
     }
 
     var tempStr = "The line is currently:"
