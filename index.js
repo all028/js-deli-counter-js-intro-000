@@ -30,10 +30,10 @@ function currentLine(line){
     var addStr = ""
     for (let i = 0; i < line.length-1; i++){
       var j = line[i+1];
-      addStr += " " + j + ". " + line + ",";      
+      addStr += " " + j + ". " + line + ",";
     }
 
     return tempStr + addStr;
-    
+
 
 }//end currentLine
