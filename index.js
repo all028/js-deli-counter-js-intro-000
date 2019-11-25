@@ -14,7 +14,7 @@ function nowServing(line){
     return "There is nobody waiting to be served!";
   }
 
-  for (let i=0; i <= line.length-1;i++ ){
+  for (let i=1; i <= line.length;i++ ){
     var temp =  line[i];
     line.unshift();
     var rslt = "Currently serving " + temp + ".";
