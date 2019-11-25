@@ -26,15 +26,12 @@ function currentLine(line){
       return "The line is currently empty.";
     }
 
-    var tempStr = "The line is currently:"
     var addStr = ""
     for (let i = 0; i < line.length-1; i++){
       var j = line[i+1];
       addStr += " " + j + ". " + line + ",";
     }
 
-    var result = tempStr + addStr;
+    var result = "The line is currently:" + addStr;
     return result;
-
-
 }//end currentLine
