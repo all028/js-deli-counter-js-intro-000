@@ -1,12 +1,10 @@
 function takeANumber(line, name){
   var rsltStr = "";
   for (let x = 0; x <= name.length -1;x++){
-
+    rsltStr = "Welcome " + name + ".  You are number " +  line + " in line";
   }
 
-
-  //var rsltStr = "Welcome " + name + ".  You are number " +  line + " in line";
-  return rsltStr;
+//  return rsltStr;
 }//end takeANumber
 
 
