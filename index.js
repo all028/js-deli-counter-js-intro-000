@@ -8,7 +8,7 @@ function takeANumber(line, name){
   return rsltStr;
 }//end takeANumber
 
-
+//**********************************done*****************
 function nowServing(line){
   if (line.length ==0){
     return "There is nobody waiting to be served!";
@@ -23,8 +23,6 @@ function nowServing(line){
 }//end nowServing
 
 
-
-//**********************************done*****************
 function currentLine(line){
     if (line.length ==0){
       return "The line is currently empty.";
