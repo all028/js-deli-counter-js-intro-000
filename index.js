@@ -15,10 +15,9 @@ function nowServing(line){
   }else{
     var temp =  line[0];
     line.shift();
-}
-
     var rslt = "Currently serving " + temp + ".";
     return rslt;
+ }
 }//end nowServing
 
 
