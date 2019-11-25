@@ -33,7 +33,7 @@ function currentLine(line){
       if (i < line.length){
         addStr += " " + k + ". " + line[i] + ",";
       }
-      
+
       if (i == line.length-1){
         addStr += " " + k + ". " + line[i];
       }
