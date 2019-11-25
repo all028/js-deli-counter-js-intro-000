@@ -35,7 +35,7 @@ function currentLine(line){
       else {
         addStr += " " + k + ". " + line[i];
       }
-      
+
       j++;
     }
 
