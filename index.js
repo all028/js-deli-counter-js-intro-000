@@ -4,7 +4,7 @@ function takeANumber(line, name){
   //find name in line
   //return index
   //for (let x = 0; x <= line.length -1;x++){
-    var num = line.find(name);
+    var num = line.findIndex(name);
     rsltStr = "Welcome, " + name + ". You are number " +  num + " in line.";
 //  }
 
