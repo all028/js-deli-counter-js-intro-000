@@ -9,9 +9,10 @@ function takeANumber(line, name){
 }//end takeANumber
 
 
-function nowServing(num){
-
-
+function nowServing(line){
+  var rslt =  line[0];
+  line.unshift();
+  return rslt;
 }//end nowServing
 
 function currentLine(num){
