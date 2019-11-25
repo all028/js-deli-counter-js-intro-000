@@ -32,9 +32,9 @@ function currentLine(line){
       var k = j.toString();
       if (i < line.length)
         addStr += " " + k + ". " + line[i] + ",";
-      else {
+
+      if (i == line.length)
         addStr += " " + k + ". " + line[i];
-      }
 
       j++;
     }
