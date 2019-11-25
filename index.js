@@ -17,7 +17,7 @@ function nowServing(line){
   for (let i=0; i <= line.length-1;i++ ){
     var temp =  line[i];
     line.unshift();
-    
+
   }
     var rslt = "Currently serving " + temp + ".";
     return rslt;
