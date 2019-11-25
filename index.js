@@ -33,7 +33,8 @@ function currentLine(line){
       addStr += " " + j + ". " + line + ",";
     }
 
-    return tempStr + addStr;
+    var result = tempStr + addStr;
+    return result;
 
 
 }//end currentLine
