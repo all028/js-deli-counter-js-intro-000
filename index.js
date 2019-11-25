@@ -1,15 +1,14 @@
 function takeANumber(line, name){
   var rsltStr = "";
-
-  //find name in line
-  //return index
-  //for (let x = 0; x <= line.length -1;x++){
-    var num = line.findIndex(function(name){
+  line.push(name)
+  var num = line.findIndex(function(name){
+      
+      line.findIndex(name);
+      
       return index;
     });
-    rsltStr = "Welcome, " + name + ". You are number " +  num + " in line.";
-//  }
 
+  rsltStr = "Welcome, " + name + ". You are number " +  num + " in line.";
   return rsltStr;
 }//end takeANumber
 
