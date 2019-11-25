@@ -2,9 +2,9 @@ function takeANumber(line, name){
   var rsltStr = "";
   line.push(name)
   var num = line.findIndex(function(name){
-      
+
       line.findIndex(name);
-      
+
       return index;
     });
 
