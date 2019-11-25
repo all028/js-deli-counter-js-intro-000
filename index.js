@@ -13,7 +13,7 @@ function nowServing(line){
   if (line.length > 0) {
     var temp =  line[0];
     line.unshift();
-    var rslt = "Currently serving " + temp;
+    var rslt = "Currently serving " + temp + ".";
     return rslt;
   }
 
