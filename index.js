@@ -10,9 +10,16 @@ function takeANumber(line, name){
 
 
 function nowServing(line){
-  var rslt =  line[0];
-  line.unshift();
-  return rslt;
+  if (line.length > 0) {
+    var rslt =  line[0];
+    line.unshift();
+    return rslt;
+  }
+
+  if (line.length ==0){
+    return "There is nobody waiting to be served!"
+
+  }
 }//end nowServing
 
 function currentLine(num){
