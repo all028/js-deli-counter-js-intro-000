@@ -14,11 +14,11 @@ function nowServing(line){
     return "There is nobody waiting to be served!";
   }
 
-  for (let i=0; i <= line.length-1;i++ ){
-    var temp =  line[i];
+
+    var temp =  line[0];
     line.unshift();
 
-  }
+
     var rslt = "Currently serving " + temp + ".";
     return rslt;
 }//end nowServing
