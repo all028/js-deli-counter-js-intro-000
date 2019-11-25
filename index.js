@@ -17,12 +17,16 @@ function nowServing(line){
   }
 
   if (line.length ==0){
-    return "There is nobody waiting to be served!"
-
+    return "There is nobody waiting to be served!";
   }
 }//end nowServing
 
-function currentLine(num){
+function currentLine(line){
+    if (line.length ==0){
+      return "There is nobody waiting to be served!";
+    }
 
+    for 
+    var idx = line.indexOf
 
 }//end currentLine
