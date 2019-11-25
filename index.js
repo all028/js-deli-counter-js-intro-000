@@ -1,7 +1,7 @@
 function takeANumber(line, name){
   var rsltStr = "";
   for (let x = 0; x <= name.length -1;x++){
-  
+
   }
 
 
