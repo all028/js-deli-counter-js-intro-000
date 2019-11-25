@@ -26,7 +26,7 @@ function currentLine(line){
       return "There is nobody waiting to be served!";
     }
 
-    for 
+    for
     var idx = line.indexOf
 
 }//end currentLine
