@@ -18,10 +18,8 @@ function nowServing(line){
     var temp =  line[i];
     line.unshift();
     var rslt = "Currently serving " + temp + ".";
-    return rslt;
   }
-
-
+    return rslt;
 }//end nowServing
 
 
