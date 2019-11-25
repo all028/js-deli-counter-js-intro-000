@@ -15,7 +15,7 @@ function nowServing(line){
   }else{
 
     var temp =  line[0];
-    line.unshift();
+    line.shift();
 }
 
     var rslt = "Currently serving " + temp + ".";
