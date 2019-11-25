@@ -30,9 +30,9 @@ function currentLine(line){
     var j = 1
     for (let i = 0; i < line.length-1; i++){
       var k = j.toString();
-      addStr += " " + k + ". " + line + ", ";
+      addStr += " " + k + ". " + line[i] + ", ";
     }
 
-    var result = "The line is currently: " + addStr;
+    var result = "The line is currently:" + addStr;
     return result;
 }//end currentLine
