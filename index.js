@@ -1,12 +1,7 @@
 function takeANumber(line, name){
   var rsltStr = "";
   line.push(name)
-  var num = line.findIndex(function(name){
-
-      line.findIndex(name);
-
-      return index;
-    });
+  var num = line.findIndex(name);
 
   rsltStr = "Welcome, " + name + ". You are number " +  num + " in line.";
   return rsltStr;
