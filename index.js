@@ -30,7 +30,7 @@ function currentLine(line){
     var j = 1
     for (let i = 0; i <= line.length-1; i++){
       var k = j.toString();
-      if (i < line.length){
+      if (i < line.length-1){
         addStr += " " + k + ". " + line[i] + ",";
       }
 
